@@ -1016,3 +1016,52 @@ footer span {
     letter-spacing: 0 !important;
     line-height: 1.15 !important;
 }
+
+/* CLEAN HERO TYPOGRAPHY */
+.hero-content h1 {
+    font-family: "Cinzel", serif;
+    font-size: clamp(42px, 6vw, 82px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: .03em;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.hero-image .image-caption {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    gap: 5px;
+}
+
+.hero-image .image-caption .astwihad-caption {
+    display: block !important;
+    width: max-content !important;
+    min-width: max-content !important;
+    white-space: nowrap !important;
+    font-family: "Cinzel", serif !important;
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    letter-spacing: .04em !important;
+    line-height: 1 !important;
+}
+
+.hero-image .image-caption small {
+    white-space: nowrap !important;
+    letter-spacing: .16em;
+}
+
+@media (max-width: 700px) {
+    .hero-content h1 {
+        font-size: clamp(34px, 11vw, 58px);
+    }
+
+    .hero-image .image-caption .astwihad-caption {
+        font-size: 19px !important;
+    }
+}
