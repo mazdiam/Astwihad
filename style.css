@@ -1065,3 +1065,25 @@ footer span {
         font-size: 19px !important;
     }
 }
+
+/* FINAL ASTWIHAD TITLE FIX */
+.hero-content h1 {
+    display: inline-block !important;
+    font-family: "Cinzel", serif !important;
+    font-size: clamp(42px, 6vw, 82px) !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    word-spacing: 0 !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+}
+
+.hero-content h1 span {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    letter-spacing: 0 !important;
+    word-spacing: 0 !important;
+}
+
