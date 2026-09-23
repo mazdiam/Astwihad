@@ -966,3 +966,53 @@ footer span {
         display: block !important;
     }
 }
+
+/* ASTWIHAD CAPTION - FINAL */
+.image-caption {
+    width: max-content !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+}
+
+.image-caption .astwihad-caption {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: max-content !important;
+    white-space: nowrap !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    font-family: "Cinzel", serif !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0 !important;
+    line-height: 1 !important;
+}
+
+/* ASTWIHĀD - DEFINITIVE CAPTION OVERRIDE */
+.hero-image .image-caption {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-align: left !important;
+}
+
+.hero-image .image-caption .astwihad-caption {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    font-family: "Cinzel", serif !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0 !important;
+    line-height: 1.15 !important;
+}
