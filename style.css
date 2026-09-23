@@ -926,3 +926,43 @@ footer span {
         padding: 120px 15px;
     }
 }
+
+/* ASTWIHĀD caption fix */
+.image-caption {
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.astwihad-caption {
+    display: block;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    font-family: "Cinzel", serif;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    line-height: 1.1;
+}
+
+/* Creator profile menu */
+.profile-link {
+    white-space: nowrap !important;
+    color: #c52631 !important;
+}
+
+.profile-link:hover {
+    color: #e4ded6 !important;
+}
+
+@media (max-width: 950px) {
+    .profile-link {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .profile-link {
+        display: block !important;
+    }
+}
